@@ -1,0 +1,952 @@
+2023-04-10 20:19:47.204768
+best_model.pth
+Image Size: 32 100
+Batch Size: 16
+LR: 0.003
+Steps: 1000000
+Model A.D. Param#: 7854467
+Optimizer: AdamW
+Loss: CTC Loss
+Setting up data...
+100000
+200
+77
+5000
+40
+20
+Dataset Size:
+Train: 100277 - Valid: 5060
+ - Predict: 897
+Visualize augmentations...
+Starting training...
+----------
+resume : saved_model\CRNN-mjsynth\best_model.pth
+TRAIN [   4/1000000].     Loss: 1290.8202 - LR: 0.0001:   0%|                                                                                      | 0/6268 [00:02<?, ?it/s]Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a100.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a101.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a102.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a103.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a104.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a105.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a106.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a107.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a108.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a109.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a110.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a111.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a112.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a113.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a114.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a115.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a116.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a117.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a118.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a119.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a120.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a121.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a122.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a123.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a124.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a125.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a126.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a127.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a128.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a129.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a130.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a131.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a132.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a133.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a134.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a135.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a136.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a137.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a138.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a139.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a140.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a141.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a142.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a143.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a144.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a145.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a146.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a147.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a148.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a149.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a150.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a151.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a152.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a153.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a154.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a155.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a156.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a157.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a158.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a159.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a160.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a161.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a162.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a163.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a164.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a165.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a166.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a167.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a168.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a169.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a170.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a171.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a172.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a173.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a174.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a175.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a176.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a177.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a178.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a179.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a180.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a181.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a182.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a183.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a184.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a185.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a186.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a187.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a188.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a189.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a190.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a191.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a192.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a193.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a194.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a195.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a196.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a197.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a198.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/special_character11\\special_character11/a199.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:/tùm lum/python/use/crnn/crnn5/main.py", line 22, in <module>
+    main()
+  File "d:/tùm lum/python/use/crnn/crnn5/main.py", line 19, in main
+    trainmodule.train_network(cfg)
+  File "d:\tùm lum\python\use\crnn\crnn5\tool\base.py", line 256, in train_network
+    use_wandb=cfg['TRAIN']['use_wandb']
+  File "d:\tùm lum\python\use\crnn\crnn5\tool\base.py", line 291, in training
+    for train_data in train_loader: # 1 batchsize train_data = 1 step
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\torch\utils\data\dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\torch\utils\data\dataloader.py", line 671, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\torch\utils\data\_utils\fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\torch\utils\data\_utils\fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\torch\utils\data\dataset.py", line 240, in __getitem__
+    return self.datasets[dataset_idx][sample_idx]
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 172, in __getitem__
+    return self[index + 1]
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 172, in __getitem__
+    return self[index + 1]
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 172, in __getitem__
+    return self[index + 1]
+  [Previous line repeated 97 more times]
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 164, in __getitem__
+    path = self.paths[index]
+IndexError: list index out of range
+text-reg-data/base-data/special_character11\special_character11/a100.png
+Corrupted image for 100
+text-reg-data/base-data/special_character11\special_character11/a101.png
+Corrupted image for 101
+text-reg-data/base-data/special_character11\special_character11/a102.png
+Corrupted image for 102
+text-reg-data/base-data/special_character11\special_character11/a103.png
+Corrupted image for 103
+text-reg-data/base-data/special_character11\special_character11/a104.png
+Corrupted image for 104
+text-reg-data/base-data/special_character11\special_character11/a105.png
+Corrupted image for 105
+text-reg-data/base-data/special_character11\special_character11/a106.png
+Corrupted image for 106
+text-reg-data/base-data/special_character11\special_character11/a107.png
+Corrupted image for 107
+text-reg-data/base-data/special_character11\special_character11/a108.png
+Corrupted image for 108
+text-reg-data/base-data/special_character11\special_character11/a109.png
+Corrupted image for 109
+text-reg-data/base-data/special_character11\special_character11/a110.png
+Corrupted image for 110
+text-reg-data/base-data/special_character11\special_character11/a111.png
+Corrupted image for 111
+text-reg-data/base-data/special_character11\special_character11/a112.png
+Corrupted image for 112
+text-reg-data/base-data/special_character11\special_character11/a113.png
+Corrupted image for 113
+text-reg-data/base-data/special_character11\special_character11/a114.png
+Corrupted image for 114
+text-reg-data/base-data/special_character11\special_character11/a115.png
+Corrupted image for 115
+text-reg-data/base-data/special_character11\special_character11/a116.png
+Corrupted image for 116
+text-reg-data/base-data/special_character11\special_character11/a117.png
+Corrupted image for 117
+text-reg-data/base-data/special_character11\special_character11/a118.png
+Corrupted image for 118
+text-reg-data/base-data/special_character11\special_character11/a119.png
+Corrupted image for 119
+text-reg-data/base-data/special_character11\special_character11/a120.png
+Corrupted image for 120
+text-reg-data/base-data/special_character11\special_character11/a121.png
+Corrupted image for 121
+text-reg-data/base-data/special_character11\special_character11/a122.png
+Corrupted image for 122
+text-reg-data/base-data/special_character11\special_character11/a123.png
+Corrupted image for 123
+text-reg-data/base-data/special_character11\special_character11/a124.png
+Corrupted image for 124
+text-reg-data/base-data/special_character11\special_character11/a125.png
+Corrupted image for 125
+text-reg-data/base-data/special_character11\special_character11/a126.png
+Corrupted image for 126
+text-reg-data/base-data/special_character11\special_character11/a127.png
+Corrupted image for 127
+text-reg-data/base-data/special_character11\special_character11/a128.png
+Corrupted image for 128
+text-reg-data/base-data/special_character11\special_character11/a129.png
+Corrupted image for 129
+text-reg-data/base-data/special_character11\special_character11/a130.png
+Corrupted image for 130
+text-reg-data/base-data/special_character11\special_character11/a131.png
+Corrupted image for 131
+text-reg-data/base-data/special_character11\special_character11/a132.png
+Corrupted image for 132
+text-reg-data/base-data/special_character11\special_character11/a133.png
+Corrupted image for 133
+text-reg-data/base-data/special_character11\special_character11/a134.png
+Corrupted image for 134
+text-reg-data/base-data/special_character11\special_character11/a135.png
+Corrupted image for 135
+text-reg-data/base-data/special_character11\special_character11/a136.png
+Corrupted image for 136
+text-reg-data/base-data/special_character11\special_character11/a137.png
+Corrupted image for 137
+text-reg-data/base-data/special_character11\special_character11/a138.png
+Corrupted image for 138
+text-reg-data/base-data/special_character11\special_character11/a139.png
+Corrupted image for 139
+text-reg-data/base-data/special_character11\special_character11/a140.png
+Corrupted image for 140
+text-reg-data/base-data/special_character11\special_character11/a141.png
+Corrupted image for 141
+text-reg-data/base-data/special_character11\special_character11/a142.png
+Corrupted image for 142
+text-reg-data/base-data/special_character11\special_character11/a143.png
+Corrupted image for 143
+text-reg-data/base-data/special_character11\special_character11/a144.png
+Corrupted image for 144
+text-reg-data/base-data/special_character11\special_character11/a145.png
+Corrupted image for 145
+text-reg-data/base-data/special_character11\special_character11/a146.png
+Corrupted image for 146
+text-reg-data/base-data/special_character11\special_character11/a147.png
+Corrupted image for 147
+text-reg-data/base-data/special_character11\special_character11/a148.png
+Corrupted image for 148
+text-reg-data/base-data/special_character11\special_character11/a149.png
+Corrupted image for 149
+text-reg-data/base-data/special_character11\special_character11/a150.png
+Corrupted image for 150
+text-reg-data/base-data/special_character11\special_character11/a151.png
+Corrupted image for 151
+text-reg-data/base-data/special_character11\special_character11/a152.png
+Corrupted image for 152
+text-reg-data/base-data/special_character11\special_character11/a153.png
+Corrupted image for 153
+text-reg-data/base-data/special_character11\special_character11/a154.png
+Corrupted image for 154
+text-reg-data/base-data/special_character11\special_character11/a155.png
+Corrupted image for 155
+text-reg-data/base-data/special_character11\special_character11/a156.png
+Corrupted image for 156
+text-reg-data/base-data/special_character11\special_character11/a157.png
+Corrupted image for 157
+text-reg-data/base-data/special_character11\special_character11/a158.png
+Corrupted image for 158
+text-reg-data/base-data/special_character11\special_character11/a159.png
+Corrupted image for 159
+text-reg-data/base-data/special_character11\special_character11/a160.png
+Corrupted image for 160
+text-reg-data/base-data/special_character11\special_character11/a161.png
+Corrupted image for 161
+text-reg-data/base-data/special_character11\special_character11/a162.png
+Corrupted image for 162
+text-reg-data/base-data/special_character11\special_character11/a163.png
+Corrupted image for 163
+text-reg-data/base-data/special_character11\special_character11/a164.png
+Corrupted image for 164
+text-reg-data/base-data/special_character11\special_character11/a165.png
+Corrupted image for 165
+text-reg-data/base-data/special_character11\special_character11/a166.png
+Corrupted image for 166
+text-reg-data/base-data/special_character11\special_character11/a167.png
+Corrupted image for 167
+text-reg-data/base-data/special_character11\special_character11/a168.png
+Corrupted image for 168
+text-reg-data/base-data/special_character11\special_character11/a169.png
+Corrupted image for 169
+text-reg-data/base-data/special_character11\special_character11/a170.png
+Corrupted image for 170
+text-reg-data/base-data/special_character11\special_character11/a171.png
+Corrupted image for 171
+text-reg-data/base-data/special_character11\special_character11/a172.png
+Corrupted image for 172
+text-reg-data/base-data/special_character11\special_character11/a173.png
+Corrupted image for 173
+text-reg-data/base-data/special_character11\special_character11/a174.png
+Corrupted image for 174
+text-reg-data/base-data/special_character11\special_character11/a175.png
+Corrupted image for 175
+text-reg-data/base-data/special_character11\special_character11/a176.png
+Corrupted image for 176
+text-reg-data/base-data/special_character11\special_character11/a177.png
+Corrupted image for 177
+text-reg-data/base-data/special_character11\special_character11/a178.png
+Corrupted image for 178
+text-reg-data/base-data/special_character11\special_character11/a179.png
+Corrupted image for 179
+text-reg-data/base-data/special_character11\special_character11/a180.png
+Corrupted image for 180
+text-reg-data/base-data/special_character11\special_character11/a181.png
+Corrupted image for 181
+text-reg-data/base-data/special_character11\special_character11/a182.png
+Corrupted image for 182
+text-reg-data/base-data/special_character11\special_character11/a183.png
+Corrupted image for 183
+text-reg-data/base-data/special_character11\special_character11/a184.png
+Corrupted image for 184
+text-reg-data/base-data/special_character11\special_character11/a185.png
+Corrupted image for 185
+text-reg-data/base-data/special_character11\special_character11/a186.png
+Corrupted image for 186
+text-reg-data/base-data/special_character11\special_character11/a187.png
+Corrupted image for 187
+text-reg-data/base-data/special_character11\special_character11/a188.png
+Corrupted image for 188
+text-reg-data/base-data/special_character11\special_character11/a189.png
+Corrupted image for 189
+text-reg-data/base-data/special_character11\special_character11/a190.png
+Corrupted image for 190
+text-reg-data/base-data/special_character11\special_character11/a191.png
+Corrupted image for 191
+text-reg-data/base-data/special_character11\special_character11/a192.png
+Corrupted image for 192
+text-reg-data/base-data/special_character11\special_character11/a193.png
+Corrupted image for 193
+text-reg-data/base-data/special_character11\special_character11/a194.png
+Corrupted image for 194
+text-reg-data/base-data/special_character11\special_character11/a195.png
+Corrupted image for 195
+text-reg-data/base-data/special_character11\special_character11/a196.png
+Corrupted image for 196
+text-reg-data/base-data/special_character11\special_character11/a197.png
+Corrupted image for 197
+text-reg-data/base-data/special_character11\special_character11/a198.png
+Corrupted image for 198
+text-reg-data/base-data/special_character11\special_character11/a199.png
+Corrupted image for 199

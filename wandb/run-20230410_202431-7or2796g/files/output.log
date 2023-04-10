@@ -1,0 +1,547 @@
+2023-04-10 20:24:32.598024
+best_model.pth
+Image Size: 32 100
+Batch Size: 16
+LR: 0.003
+Steps: 1000000
+Model A.D. Param#: 7854467
+Optimizer: AdamW
+Loss: CTC Loss
+Setting up data...
+100000
+200
+77
+5000
+40
+20
+Dataset Size:
+Train: 100277 - Valid: 5060
+ - Predict: 897
+Visualize augmentations...
+Starting training...
+----------
+resume : saved_model\CRNN-mjsynth\best_model.pth
+
+
+
+
+
+TRAIN [  23/1000000].     Loss: 962.0443 - LR: 0.0001:   0%|                                                                                       | 0/6268 [00:12<?, ?it/s]Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/d20.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/d21.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/d22.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/d23.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/d24.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/d25.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/d26.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/d27.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/d28.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/d29.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/d30.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/d31.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/dHSD.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/dNSX.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f1.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f2.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f3.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f4.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f5.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f6.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f7.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f8.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f9.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f10.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f11.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f12.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f13.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f14.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f15.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f16.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f17.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f18.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f19.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f20.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f21.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f22.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f23.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f24.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f25.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f26.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f27.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f28.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f29.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f30.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f31.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f32.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f33.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f34.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 167, in __getitem__
+    image = Image.open(path).convert('L')  # grey-scale
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\PIL\Image.py", line 3131, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/anotherexp\\anotherexp/f35.png'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "d:/tùm lum/python/use/crnn/crnn5/main.py", line 22, in <module>
+    main()
+  File "d:/tùm lum/python/use/crnn/crnn5/main.py", line 19, in main
+    trainmodule.train_network(cfg)
+  File "d:\tùm lum\python\use\crnn\crnn5\tool\base.py", line 256, in train_network
+    use_wandb=cfg['TRAIN']['use_wandb']
+  File "d:\tùm lum\python\use\crnn\crnn5\tool\base.py", line 291, in training
+    for train_data in train_loader: # 1 batchsize train_data = 1 step
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\torch\utils\data\dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\torch\utils\data\dataloader.py", line 671, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\torch\utils\data\_utils\fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\torch\utils\data\_utils\fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\torch\utils\data\dataset.py", line 240, in __getitem__
+    return self.datasets[dataset_idx][sample_idx]
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 172, in __getitem__
+    return self[index + 1]
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 172, in __getitem__
+    return self[index + 1]
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 172, in __getitem__
+    return self[index + 1]
+  [Previous line repeated 46 more times]
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 164, in __getitem__
+    path = self.paths[index]
+IndexError: list index out of range
+text-reg-data/base-data/anotherexp\anotherexp/d20.png
+text-reg-data/base-data/anotherexp\anotherexp/d20.png
+Corrupted image for 28
+text-reg-data/base-data/anotherexp\anotherexp/d21.png
+text-reg-data/base-data/anotherexp\anotherexp/d21.png
+Corrupted image for 29
+text-reg-data/base-data/anotherexp\anotherexp/d22.png
+text-reg-data/base-data/anotherexp\anotherexp/d22.png
+Corrupted image for 30
+text-reg-data/base-data/anotherexp\anotherexp/d23.png
+text-reg-data/base-data/anotherexp\anotherexp/d23.png
+Corrupted image for 31
+text-reg-data/base-data/anotherexp\anotherexp/d24.png
+text-reg-data/base-data/anotherexp\anotherexp/d24.png
+Corrupted image for 32
+text-reg-data/base-data/anotherexp\anotherexp/d25.png
+text-reg-data/base-data/anotherexp\anotherexp/d25.png
+Corrupted image for 33
+text-reg-data/base-data/anotherexp\anotherexp/d26.png
+text-reg-data/base-data/anotherexp\anotherexp/d26.png
+Corrupted image for 34
+text-reg-data/base-data/anotherexp\anotherexp/d27.png
+text-reg-data/base-data/anotherexp\anotherexp/d27.png
+Corrupted image for 35
+text-reg-data/base-data/anotherexp\anotherexp/d28.png
+text-reg-data/base-data/anotherexp\anotherexp/d28.png
+Corrupted image for 36
+text-reg-data/base-data/anotherexp\anotherexp/d29.png
+text-reg-data/base-data/anotherexp\anotherexp/d29.png
+Corrupted image for 37
+text-reg-data/base-data/anotherexp\anotherexp/d30.png
+text-reg-data/base-data/anotherexp\anotherexp/d30.png
+Corrupted image for 38
+text-reg-data/base-data/anotherexp\anotherexp/d31.png
+text-reg-data/base-data/anotherexp\anotherexp/d31.png
+Corrupted image for 39
+text-reg-data/base-data/anotherexp\anotherexp/dHSD.png
+text-reg-data/base-data/anotherexp\anotherexp/dHSD.png
+Corrupted image for 40
+text-reg-data/base-data/anotherexp\anotherexp/dNSX.png
+text-reg-data/base-data/anotherexp\anotherexp/dNSX.png
+Corrupted image for 41
+text-reg-data/base-data/anotherexp\anotherexp/f1.png
+text-reg-data/base-data/anotherexp\anotherexp/f1.png
+Corrupted image for 42
+text-reg-data/base-data/anotherexp\anotherexp/f2.png
+text-reg-data/base-data/anotherexp\anotherexp/f2.png
+Corrupted image for 43
+text-reg-data/base-data/anotherexp\anotherexp/f3.png
+text-reg-data/base-data/anotherexp\anotherexp/f3.png
+Corrupted image for 44
+text-reg-data/base-data/anotherexp\anotherexp/f4.png
+text-reg-data/base-data/anotherexp\anotherexp/f4.png
+Corrupted image for 45
+text-reg-data/base-data/anotherexp\anotherexp/f5.png
+text-reg-data/base-data/anotherexp\anotherexp/f5.png
+Corrupted image for 46
+text-reg-data/base-data/anotherexp\anotherexp/f6.png
+text-reg-data/base-data/anotherexp\anotherexp/f6.png
+Corrupted image for 47
+text-reg-data/base-data/anotherexp\anotherexp/f7.png
+text-reg-data/base-data/anotherexp\anotherexp/f7.png
+Corrupted image for 48
+text-reg-data/base-data/anotherexp\anotherexp/f8.png
+text-reg-data/base-data/anotherexp\anotherexp/f8.png
+Corrupted image for 49
+text-reg-data/base-data/anotherexp\anotherexp/f9.png
+text-reg-data/base-data/anotherexp\anotherexp/f9.png
+Corrupted image for 50
+text-reg-data/base-data/anotherexp\anotherexp/f10.png
+text-reg-data/base-data/anotherexp\anotherexp/f10.png
+Corrupted image for 51
+text-reg-data/base-data/anotherexp\anotherexp/f11.png
+text-reg-data/base-data/anotherexp\anotherexp/f11.png
+Corrupted image for 52
+text-reg-data/base-data/anotherexp\anotherexp/f12.png
+text-reg-data/base-data/anotherexp\anotherexp/f12.png
+Corrupted image for 53
+text-reg-data/base-data/anotherexp\anotherexp/f13.png
+text-reg-data/base-data/anotherexp\anotherexp/f13.png
+Corrupted image for 54
+text-reg-data/base-data/anotherexp\anotherexp/f14.png
+text-reg-data/base-data/anotherexp\anotherexp/f14.png
+Corrupted image for 55
+text-reg-data/base-data/anotherexp\anotherexp/f15.png
+text-reg-data/base-data/anotherexp\anotherexp/f15.png
+Corrupted image for 56
+text-reg-data/base-data/anotherexp\anotherexp/f16.png
+text-reg-data/base-data/anotherexp\anotherexp/f16.png
+Corrupted image for 57
+text-reg-data/base-data/anotherexp\anotherexp/f17.png
+text-reg-data/base-data/anotherexp\anotherexp/f17.png
+Corrupted image for 58
+text-reg-data/base-data/anotherexp\anotherexp/f18.png
+text-reg-data/base-data/anotherexp\anotherexp/f18.png
+Corrupted image for 59
+text-reg-data/base-data/anotherexp\anotherexp/f19.png
+text-reg-data/base-data/anotherexp\anotherexp/f19.png
+Corrupted image for 60
+text-reg-data/base-data/anotherexp\anotherexp/f20.png
+text-reg-data/base-data/anotherexp\anotherexp/f20.png
+Corrupted image for 61
+text-reg-data/base-data/anotherexp\anotherexp/f21.png
+text-reg-data/base-data/anotherexp\anotherexp/f21.png
+Corrupted image for 62
+text-reg-data/base-data/anotherexp\anotherexp/f22.png
+text-reg-data/base-data/anotherexp\anotherexp/f22.png
+Corrupted image for 63
+text-reg-data/base-data/anotherexp\anotherexp/f23.png
+text-reg-data/base-data/anotherexp\anotherexp/f23.png
+Corrupted image for 64
+text-reg-data/base-data/anotherexp\anotherexp/f24.png
+text-reg-data/base-data/anotherexp\anotherexp/f24.png
+Corrupted image for 65
+text-reg-data/base-data/anotherexp\anotherexp/f25.png
+text-reg-data/base-data/anotherexp\anotherexp/f25.png
+Corrupted image for 66
+text-reg-data/base-data/anotherexp\anotherexp/f26.png
+text-reg-data/base-data/anotherexp\anotherexp/f26.png
+Corrupted image for 67
+text-reg-data/base-data/anotherexp\anotherexp/f27.png
+text-reg-data/base-data/anotherexp\anotherexp/f27.png
+Corrupted image for 68
+text-reg-data/base-data/anotherexp\anotherexp/f28.png
+text-reg-data/base-data/anotherexp\anotherexp/f28.png
+Corrupted image for 69
+text-reg-data/base-data/anotherexp\anotherexp/f29.png
+text-reg-data/base-data/anotherexp\anotherexp/f29.png
+Corrupted image for 70
+text-reg-data/base-data/anotherexp\anotherexp/f30.png
+text-reg-data/base-data/anotherexp\anotherexp/f30.png
+Corrupted image for 71
+text-reg-data/base-data/anotherexp\anotherexp/f31.png
+text-reg-data/base-data/anotherexp\anotherexp/f31.png
+Corrupted image for 72
+text-reg-data/base-data/anotherexp\anotherexp/f32.png
+text-reg-data/base-data/anotherexp\anotherexp/f32.png
+Corrupted image for 73
+text-reg-data/base-data/anotherexp\anotherexp/f33.png
+text-reg-data/base-data/anotherexp\anotherexp/f33.png
+Corrupted image for 74
+text-reg-data/base-data/anotherexp\anotherexp/f34.png
+text-reg-data/base-data/anotherexp\anotherexp/f34.png
+Corrupted image for 75
+text-reg-data/base-data/anotherexp\anotherexp/f35.png
+text-reg-data/base-data/anotherexp\anotherexp/f35.png
+Corrupted image for 76

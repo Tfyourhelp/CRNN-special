@@ -1,0 +1,27 @@
+2023-04-09 20:56:09,816 INFO    MainThread:19280 [wandb_setup.py:_flush():76] Configure stats pid to 19280
+2023-04-09 20:56:09,816 INFO    MainThread:19280 [wandb_setup.py:_flush():76] Loading settings from C:\Users\DELL\.config\wandb\settings
+2023-04-09 20:56:09,816 INFO    MainThread:19280 [wandb_setup.py:_flush():76] Loading settings from D:\tùm lum\python\use\crnn\crnn4\wandb\settings
+2023-04-09 20:56:09,816 INFO    MainThread:19280 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-09 20:56:09,816 INFO    MainThread:19280 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'd:/tùm lum/python/use/crnn/crnn4/main.py'}
+2023-04-09 20:56:09,819 INFO    MainThread:19280 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-04-09 20:56:09,819 INFO    MainThread:19280 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-04-09 20:56:09,819 INFO    MainThread:19280 [wandb_init.py:_log_setup():507] Logging user logs to D:\tùm lum\python\use\crnn\crnn4\wandb\run-20230409_205609-453lhpcm\logs\debug.log
+2023-04-09 20:56:09,819 INFO    MainThread:19280 [wandb_init.py:_log_setup():508] Logging internal logs to D:\tùm lum\python\use\crnn\crnn4\wandb\run-20230409_205609-453lhpcm\logs\debug-internal.log
+2023-04-09 20:56:09,819 INFO    MainThread:19280 [wandb_init.py:init():547] calling init triggers
+2023-04-09 20:56:09,819 INFO    MainThread:19280 [wandb_init.py:init():555] wandb.init called with sweep_config: {}
+config: {'EXP_NAME': 'CRNN-mjsynth', 'SEED': 42, 'API_KEY': 'a74f58efdf63706877955dc5830d376b0630b0d4', 'DATASET': {'datadir': 'text-reg-data/', 'target': 'mjsynth', 'synth_folder': 'mnt/ramdisk/max/90kDICT32px', 'icdar15_folder': 'icdar/icdar15/trainning', 'exp_folder': 'exp', 'resize': {'height': 32, 'width': 100}}, 'MODEL': {'map_to_seq_hidden': 64, 'rnn_hidden': 256, 'leaky_relu': False}, 'TRAIN': {'num_training_steps': 1000000, 'train_batch_size': 16, 'num_workers': 0, 'reload_checkpoint': 'None', 'valid_max_iter': 100, 'decode_method': 'greedy', 'beam_size': 10, 'use_wandb': True}, 'EVALUATE': {'eval_batch_size': 512, 'num_workers': 0, 'reload_checkpoint': 'checkpoints/crnn_synth90k.pt', 'decode_method': 'beam_search', 'beam_size': 10}, 'TEST': {'IMAGE': 'D:/data/TextReg/Challengeee', 'ANNOTATION_TEST': 'text-reg-data/base-data/mnt/ramdisk/max/90kDICT32px/annotation_test.txt', 'test_batch_size': 16, 'decode_method': 'beam_search', 'beam_size': 10}, 'OPTIMIZER': {'optim_name': 'adam', 'lr': 0.003, 'weight_decay': 0.0005, 'momentum': 0.9}, 'SCHEDULER': {'min_lr': 0.0001, 'warmup_ratio': 0.1, 'use_scheduler': True}, 'LOG': {'log_interval': 1, 'eval_interval': 50}, 'RESULT': {'savedir': 'saved_model', 'vis_test_dir': 'vis_test_dir'}, 'RESUME': {'bestmodel': 'best_model.pth'}}
+2023-04-09 20:56:09,819 INFO    MainThread:19280 [wandb_init.py:init():595] starting backend
+2023-04-09 20:56:09,819 INFO    MainThread:19280 [wandb_init.py:init():599] setting up manager
+2023-04-09 20:56:09,826 INFO    MainThread:19280 [backend.py:_multiprocessing_setup():108] multiprocessing start_methods=spawn, using: spawn
+2023-04-09 20:56:09,832 INFO    MainThread:19280 [wandb_init.py:init():605] backend started and connected
+2023-04-09 20:56:09,836 INFO    MainThread:19280 [wandb_init.py:init():695] updated telemetry
+2023-04-09 20:56:09,837 INFO    MainThread:19280 [wandb_init.py:init():732] communicating run to backend with 60.0 second timeout
+2023-04-09 20:56:10,739 ERROR   MainThread:19280 [wandb_init.py:init():758] encountered error: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 403: Forbidden)
+2023-04-09 20:56:11,184 ERROR   MainThread:19280 [wandb_init.py:init():1163] It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 403: Forbidden)
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\pii37\lib\site-packages\wandb\sdk\wandb_init.py", line 1145, in init
+    run = wi.init()
+  File "C:\Users\DELL\anaconda3\envs\pii37\lib\site-packages\wandb\sdk\wandb_init.py", line 764, in init
+    raise error
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 403: Forbidden)
+2023-04-09 20:56:12,190 WARNING MsgRouterThr:19280 [router.py:message_loop():77] message_loop has been closed

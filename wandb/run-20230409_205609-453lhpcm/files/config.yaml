@@ -1,0 +1,104 @@
+wandb_version: 1
+
+EXP_NAME:
+  desc: null
+  value: CRNN-mjsynth
+SEED:
+  desc: null
+  value: 42
+API_KEY:
+  desc: null
+  value: a74f58efdf63706877955dc5830d376b0630b0d4
+DATASET:
+  desc: null
+  value:
+    datadir: text-reg-data/
+    target: mjsynth
+    synth_folder: mnt/ramdisk/max/90kDICT32px
+    icdar15_folder: icdar/icdar15/trainning
+    exp_folder: exp
+    resize:
+      height: 32
+      width: 100
+MODEL:
+  desc: null
+  value:
+    map_to_seq_hidden: 64
+    rnn_hidden: 256
+    leaky_relu: false
+TRAIN:
+  desc: null
+  value:
+    num_training_steps: 1000000
+    train_batch_size: 16
+    num_workers: 0
+    reload_checkpoint: None
+    valid_max_iter: 100
+    decode_method: greedy
+    beam_size: 10
+    use_wandb: true
+EVALUATE:
+  desc: null
+  value:
+    eval_batch_size: 512
+    num_workers: 0
+    reload_checkpoint: checkpoints/crnn_synth90k.pt
+    decode_method: beam_search
+    beam_size: 10
+TEST:
+  desc: null
+  value:
+    IMAGE: D:/data/TextReg/Challengeee
+    ANNOTATION_TEST: text-reg-data/base-data/mnt/ramdisk/max/90kDICT32px/annotation_test.txt
+    test_batch_size: 16
+    decode_method: beam_search
+    beam_size: 10
+OPTIMIZER:
+  desc: null
+  value:
+    optim_name: adam
+    lr: 0.003
+    weight_decay: 0.0005
+    momentum: 0.9
+SCHEDULER:
+  desc: null
+  value:
+    min_lr: 0.0001
+    warmup_ratio: 0.1
+    use_scheduler: true
+LOG:
+  desc: null
+  value:
+    log_interval: 1
+    eval_interval: 50
+RESULT:
+  desc: null
+  value:
+    savedir: saved_model
+    vis_test_dir: vis_test_dir
+RESUME:
+  desc: null
+  value:
+    bestmodel: best_model.pth
+_wandb:
+  desc: null
+  value:
+    python_version: 3.7.16
+    cli_version: 0.14.2
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1681048569.832421
+    t:
+      1:
+      - 1
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.7.16
+      5: 0.14.2
+      8:
+      - 3
+      - 5

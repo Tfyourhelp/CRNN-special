@@ -1,0 +1,51 @@
+2023-04-10 20:39:00.948567
+best_model.pth
+Image Size: 32 100
+Batch Size: 16
+LR: 0.001
+Steps: 1000000
+Model A.D. Param#: 7854467
+Optimizer: AdamW
+Loss: CTC Loss
+Setting up data...
+100000
+text-reg-data/base-data/special_character11
+200
+text-reg-data/base-data/anotherexp
+77
+5000
+text-reg-data/base-data/special_character11
+40
+text-reg-data/base-data/anotherexp
+20
+Dataset Size:
+Train: 100277 - Valid: 5060
+ - Predict: 897
+Visualize augmentations...
+Starting training...
+----------
+resume : saved_model\CRNN-mjsynth\best_model.pth
+
+TRAIN [   6/1000000].     Loss: 1285.4523 - LR: 0.0001:   0%|                                                                                      | 0/6268 [00:03<?, ?it/s]
+TRAIN [   7/1000000].     Loss: 1277.3904 - LR: 0.0001:   0%|                                                                                      | 0/6268 [00:03<?, ?it/s]Traceback (most recent call last):
+  File "d:/tùm lum/python/use/crnn/crnn5/main.py", line 22, in <module>
+    main()
+  File "d:/tùm lum/python/use/crnn/crnn5/main.py", line 19, in main
+    trainmodule.train_network(cfg)
+  File "d:\tùm lum\python\use\crnn\crnn5\tool\base.py", line 256, in train_network
+    use_wandb=cfg['TRAIN']['use_wandb']
+  File "d:\tùm lum\python\use\crnn\crnn5\tool\base.py", line 291, in training
+    for train_data in train_loader: # 1 batchsize train_data = 1 step
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\torch\utils\data\dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\torch\utils\data\dataloader.py", line 671, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\torch\utils\data\_utils\fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\torch\utils\data\_utils\fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\site-packages\torch\utils\data\dataset.py", line 240, in __getitem__
+    return self.datasets[dataset_idx][sample_idx]
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 197, in __getitem__
+    image, target,target_length = self.augment_image((self, image,target,target_length)) # bên trong có chuyển sang tensor
+TypeError: augment_image() missing 2 required positional arguments: 'target' and 'target_length'

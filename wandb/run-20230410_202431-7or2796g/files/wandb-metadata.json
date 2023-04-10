@@ -1,0 +1,36 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.13",
+    "heartbeatAt": "2023-04-10T13:24:32.568034",
+    "startedAt": "2023-04-10T13:24:31.092836",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "d:/t\u00f9m lum/python/use/crnn/crnn5/main.py",
+    "codePath": "main.py",
+    "host": "DESKTOP-PTANDV9",
+    "username": "DELL",
+    "executable": "C:\\Users\\DELL\\anaconda3\\envs\\python37\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 6,
+    "cpu_freq": {
+        "current": 2375.0,
+        "min": 0.0,
+        "max": 2375.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2375.0,
+            "min": 0.0,
+            "max": 2375.0
+        }
+    ],
+    "disk": {
+        "total": 365.74511337280273,
+        "used": 303.2383232116699
+    },
+    "memory": {
+        "total": 15.368644714355469
+    }
+}

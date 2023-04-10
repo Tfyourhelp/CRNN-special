@@ -1,0 +1,23 @@
+2023-04-10 20:15:58.956956
+best_model.pth
+Image Size: 32 100
+Batch Size: 16
+LR: 0.003
+Steps: 1000000
+Model A.D. Param#: 7854467
+loadddd
+Optimizer: AdamW
+Loss: CTC Loss
+Setting up data...
+Traceback (most recent call last):
+  File "d:/tùm lum/python/use/crnn/crnn5/main.py", line 22, in <module>
+    main()
+  File "d:/tùm lum/python/use/crnn/crnn5/main.py", line 19, in main
+    trainmodule.train_network(cfg)
+  File "d:\tùm lum\python\use\crnn\crnn5\tool\base.py", line 200, in train_network
+    img_height  = cfg['DATASET']['resize']['height'],
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 32, in __init__
+    paths, texts = self._load_from_raw_files(root_dir, mode)
+  File "d:\tùm lum\python\use\crnn\crnn5\data\icdardataset.py", line 104, in _load_from_raw_files
+    with open(os.path.join(root_dir, paths_file), 'r', encoding='utf-8-sig') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'text-reg-data/base-data/Special/gt.txt'

@@ -1,0 +1,81 @@
+2023-04-09 21:24:29.403614
+best_model.pth
+Image Size: 32 100
+Batch Size: 16
+LR: 0.003
+Steps: 1000000
+Model A.D. Param#: 7854467
+loadddd
+Optimizer: AdamW
+Loss: CTC Loss
+Setting up data...
+Dataset Size:
+Train: 105000 - Valid: 5471
+ - Predict: 1500
+Visualize augmentations...
+Starting training...
+----------
+resume : saved_model\CRNN-mjsynth\best_model.pth
+LOAD MODEL
+loaded weights from saved_model\CRNN-mjsynth\best_model.pth, step 40999, best_score 0.6748309267044416
+TRAIN [41000/1000000].     Loss: 25.8654 - LR: 0.0013:   0%|                                                                                | 0/6563 [00:00<?, ?it/s]
+  File "d:/tùm lum/python/use/crnn/crnn4/main.py", line 22, in <module>                                                                       | 0/11 [00:00<?, ?it/s]
+    main()
+  File "d:/tùm lum/python/use/crnn/crnn4/main.py", line 19, in main
+    trainmodule.train_network(cfg)
+  File "d:\tùm lum\python\use\crnn\crnn4\tool\trainsynth90k_special.py", line 239, in train_network
+    use_wandb=cfg['TRAIN']['use_wandb']
+  File "d:\tùm lum\python\use\crnn\crnn4\tool\trainsynth90k_special.py", line 299, in training
+    beam_size=valid_beam_size)
+  File "d:\tùm lum\python\use\crnn\crnn4\utils\evaluate.py", line 36, in evaluate
+    logits = crnn(images)
+  File "C:\Users\DELL\anaconda3\envs\pii37\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "d:\tùm lum\python\use\crnn\crnn4\utils\model\crnn.py", line 85, in forward
+    conv = self.cnn(images) # ảnh qua backbone cnn
+  File "C:\Users\DELL\anaconda3\envs\pii37\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\pii37\lib\site-packages\torch\nn\modules\container.py", line 204, in forward
+    input = module(input)
+  File "C:\Users\DELL\anaconda3\envs\pii37\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\pii37\lib\site-packages\torch\nn\modules\conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "C:\Users\DELL\anaconda3\envs\pii37\lib\site-packages\torch\nn\modules\conv.py", line 460, in _conv_forward
+    self.padding, self.dilation, self.groups)
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\pii37\lib\site-packages\wandb\sdk\lib\exit_hooks.py", line 53, in exc_handler
+    traceback.print_exception(exc_type, exc, tb)
+  File "C:\Users\DELL\anaconda3\envs\pii37\lib\traceback.py", line 105, in print_exception
+    print(line, file=file, end="")
+  File "C:\Users\DELL\anaconda3\envs\pii37\lib\site-packages\wandb\sdk\lib\redirect.py", line 640, in write
+    self._old_write(data)
+KeyboardInterrupt
+Original exception was:
+Traceback (most recent call last):
+  File "d:/tùm lum/python/use/crnn/crnn4/main.py", line 22, in <module>
+    main()
+  File "d:/tùm lum/python/use/crnn/crnn4/main.py", line 19, in main
+    trainmodule.train_network(cfg)
+  File "d:\tùm lum\python\use\crnn\crnn4\tool\trainsynth90k_special.py", line 239, in train_network
+    use_wandb=cfg['TRAIN']['use_wandb']
+  File "d:\tùm lum\python\use\crnn\crnn4\tool\trainsynth90k_special.py", line 299, in training
+    beam_size=valid_beam_size)
+  File "d:\tùm lum\python\use\crnn\crnn4\utils\evaluate.py", line 36, in evaluate
+    logits = crnn(images)
+  File "C:\Users\DELL\anaconda3\envs\pii37\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "d:\tùm lum\python\use\crnn\crnn4\utils\model\crnn.py", line 85, in forward
+    conv = self.cnn(images) # ảnh qua backbone cnn
+  File "C:\Users\DELL\anaconda3\envs\pii37\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\pii37\lib\site-packages\torch\nn\modules\container.py", line 204, in forward
+    input = module(input)
+  File "C:\Users\DELL\anaconda3\envs\pii37\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\pii37\lib\site-packages\torch\nn\modules\conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "C:\Users\DELL\anaconda3\envs\pii37\lib\site-packages\torch\nn\modules\conv.py", line 460, in _conv_forward
+    self.padding, self.dilation, self.groups)
+KeyboardInterrupt

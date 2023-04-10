@@ -1,0 +1,65 @@
+2023-04-10 20:17:54.345234
+best_model.pth
+Image Size: 32 100
+Batch Size: 16
+LR: 0.003
+Steps: 1000000
+Model A.D. Param#: 7854467
+loadddd
+Optimizer: AdamW
+Loss: CTC Loss
+Setting up data...
+100000
+200
+77
+5000
+40
+20
+Dataset Size:
+Train: 100277 - Valid: 5060
+ - Predict: 897
+Visualize augmentations...
+Traceback (most recent call last):
+  File "d:/tùm lum/python/use/crnn/crnn5/main.py", line 22, in <module>
+    main()
+  File "d:/tùm lum/python/use/crnn/crnn5/main.py", line 19, in main
+    trainmodule.train_network(cfg)
+  File "d:\tùm lum\python\use\crnn\crnn5\tool\base.py", line 239, in train_network
+    self.visualize_augmentations(trainset, samples=10)
+  File "d:\tùm lum\python\use\crnn\crnn5\tool\base.py", line 383, in visualize_augmentations
+    dataset = copy.deepcopy(dataset)
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\copy.py", line 281, in _reconstruct
+    state = deepcopy(state, memo)
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\copy.py", line 241, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\copy.py", line 216, in _deepcopy_list
+    append(deepcopy(a, memo))
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\copy.py", line 281, in _reconstruct
+    state = deepcopy(state, memo)
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\copy.py", line 241, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\copy.py", line 216, in _deepcopy_list
+    append(deepcopy(a, memo))
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\copy.py", line 281, in _reconstruct
+    state = deepcopy(state, memo)
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\copy.py", line 241, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "C:\Users\DELL\anaconda3\envs\python37\lib\copy.py", line 169, in deepcopy
+    rv = reductor(4)
+TypeError: can't pickle cv2.ThinPlateSplineShapeTransformer objects
