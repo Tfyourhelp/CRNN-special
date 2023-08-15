@@ -170,8 +170,8 @@ def predict(crnn, dataset,paths, label2char, decode_method, beam_size):
 
 def main(cfg):
     arguments = docopt(__doc__)
-#text-reg-data/New folder
-#C:/Users/DELL/Desktop/image/hsd_aug # data hsd valid
+
+
     images_path_list = get_images('text-reg-data/icdar/icdar15/trainning') # D:/data/TextReg/Challengeee
     print(len(images_path_list))
     
@@ -194,6 +194,7 @@ def main(cfg):
         # dataset=predict_dataset,
         # batch_size=batch_size,
         # shuffle=False)
+
     predict_dataset,paths = get_images_and_path(images_path_list,img_height=img_height, img_width=img_width)
 
 
@@ -202,10 +203,7 @@ def main(cfg):
                 map_to_seq_hidden=cfg['MODEL']['map_to_seq_hidden'],
                 rnn_hidden=cfg['MODEL']['rnn_hidden'],
                 leaky_relu=cfg['MODEL']['leaky_relu'])
-    #C:/Users/DELL/Downloads/best_model.pth
-    #best_model.pth
-# best_model_24.pth # dự đoán hsd , icdar 13
-#C:/Users/DELL/Downloads/basehsdicdar15/crnnicdarfordetectbaocaoicdar13/best_model_26_.pth # dự đoán icdar 13
+
     #crnn.load_state_dict(torch.load(reload_checkpoint, map_location=device),strict = False)
     
     checkpoint = torch.load('C:/Users/DELL/Downloads/basehsdicdar15/crnnicdarfordetectbaocaoicdar13/best_model_26_.pth', map_location=device)
@@ -215,10 +213,6 @@ def main(cfg):
     crnn.to(device)
 
     # preds = predict(crnn, predict_loader, Synth90kDataset.LABEL2CHAR,
-    #                 decode_method=decode_method,
-    #                 beam_size=beam_size)
-
-    # preds = predict(crnn, predict_dataset, Synth90kDataset.LABEL2CHAR,
     #                 decode_method=decode_method,
     #                 beam_size=beam_size)
 

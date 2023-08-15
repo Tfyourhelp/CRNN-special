@@ -1,8 +1,6 @@
 EXP_NAME: CRNN
 SEED: 42
-API_KEY: 'a74f58efdf63706877955dc5830d376b0630b0d4'
-
-
+API_KEY: ''
 
 DATASET:
     datadir: 'text-reg-data/'
@@ -63,7 +61,6 @@ TEST:
     beam_size: 10
     
     
-
 OPTIMIZER:
     optim_name: 'adam' #'RMS''sgd'
     lr: 0.001 #0.0001
@@ -85,6 +82,7 @@ LOG:
 RESULT:
     savedir: 'saved_model'
     vis_test_dir: 'vis_test_dir'
+
 
 RESUME:
     bestmodel: 'best_model.pth'

@@ -3,7 +3,6 @@ from utils.pre_processing.img_proc import processing_img
 
 
 class Synth90kDataset(Dataset):
-    #CHARS = string.digits +  string.ascii_lowercase + string.ascii_uppercase
 
     CHARS = string.digits +  string.ascii_lowercase + string.ascii_uppercase + "-./:"
     CHAR2LABEL = {char: i + 1 for i, char in enumerate(CHARS)} # char sang index
@@ -27,19 +26,15 @@ class Synth90kDataset(Dataset):
                 texts = texts[-5100:-5000]
 
 
-        elif not root_dir and not mode and paths: # trường hợp để root_dir không có , mode không có
+        elif not root_dir and not mode and paths: # trường hợp để root_dir không có , mode không có ||| phải làm cách paths thành cái list
             texts = None
-            # khúc này phải làm cách paths thành cái list
-        #print(texts)
+            
         self.paths = paths
         self.texts = texts
-        # print('k')
         # print(self.paths)
         # print(self.texts)
         self.img_height = img_height
         self.img_width = img_width
-
-
 
 
 
